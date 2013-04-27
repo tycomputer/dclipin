@@ -1,0 +1,27 @@
+User-agent: *    
+Allow:/
+Allow:Allow:/jsp/contact/contact.jsp
+Allow:/jsp/about/about.jsp
+Allow:/jsp/jspx/aboutjspx.jsp
+Allow:/jsp/eq/eq.jsp
+Allow:/jsp/school/school.jsp
+Allow:/jsp/news/newsList.jsp
+Allow:/jsp/jspx/aboutjspx.jsp
+Allow:/jsp/eq/eq.jsp
+Allow:/jsp/school/school.jsp
+Allow:/jsp/jspx/jspxonline.jsp
+Allow:/jsp/jspx/jspxbm.jsp
+Allow:/jsp/news/newsList.jsp
+Allow:/jsp/about/about.jsp
+Allow:/jsp/about/aboutManager.jsp
+Allow:/jsp/about/aboutAuthority.jsp
+Allow:/jsp/jspx/jspxjp.jsp
+Allow:/jsp/jspx/jspxjs.jsp
+Allow:/jsp/eq/kc.jsp
+Allow:/jsp/eq/kc1.jsp
+Allow:/jsp/school/school1.jsp
+Allow:/jsp/school/school2.jsp
+Allow:/jsp/contact/hr.jsp
+Allow:/jsp/eq/howto.jsp
+Allow:/jsp/eq/12.jsp
+Allow:/jsp/eq/normal.jsp

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+  http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+  http://www.springframework.org/schema/aop 
+  http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+  http://www.springframework.org/schema/tx 
+  http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+
+	<bean id="cacheData" class="com.tycomputer.common.web.CacheData" init-method="cache">
+		<property name="dao" ref="dao" />
+	</bean>
+	
+	<bean id="loginService" class="com.tycomputer.manager.service.LoginServiceImpl">
+		<property name="username">
+			<value>${admin.username}</value>
+		</property>
+		<property name="password">
+			<value>${admin.password}</value>
+		</property>
+		<property name="hjusername">
+			<value>${hj.username}</value>
+		</property>
+		<property name="hjpassword">
+			<value>${hj.password}</value>
+		</property>
+		<property name="yycusername">
+			<value>${yyc.username}</value>
+		</property>
+		<property name="yycpassword">
+			<value>${yyc.password}</value>
+		</property>
+	</bean>
+
+	<bean id="constants" class="com.tycomputer.common.util.Constants" scope="singleton">
+		<property name="litWidth">
+			<value>${litWidth}</value>
+		</property>
+		<property name="litHeight">
+			<value>${litHeight}</value>
+		</property>
+		<property name="bigWidth">
+			<value>${bigWidth}</value>
+		</property>
+		<property name="bigHeight">
+			<value>${bigHeight}</value>
+		</property>
+		<property name="siteTitle">
+			<value>${siteTitle}</value>
+		</property>
+		<property name="keywords">
+			<value>${keywords}</value>
+		</property>
+		<property name="description">
+			<value>${description}</value>
+		</property>
+		<property name="hjsiteTitle">
+			<value>${hjsiteTitle}</value>
+		</property>
+		<property name="hjkeywords">
+			<value>${hjkeywords}</value>
+		</property>
+		<property name="hjdescription">
+			<value>${hjdescription}</value>
+		</property>
+		
+	</bean>
+
+	<bean id="standDataService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.manager.service.StandDataServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="presentService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.manager.service.PresentServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+ 
+	<bean id="showedPresentService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.manager.service.ShowedPresentServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="genhtmlService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.manager.service.GenhtmlServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="presentDetailService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.web.PresentDetailServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+<!-- -->	
+<!-- 
+	<bean id="imageService" parent="baseTransactionProxy">
+		<property name="target">
+			<bean class="com.tycomputer.manager.service.ImageServiceImpl">
+				<property name="dao" ref="dao" />
+			</bean>
+		</property>
+	</bean>
+ -->
+</beans>

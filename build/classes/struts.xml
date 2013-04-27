@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<include file="struts-default.xml" />
+	<package name="default" extends="struts-default">
+		<interceptors>
+			<interceptor name="login" class="com.tycomputer.common.web.LoginInterceptor" />
+			<interceptor-stack name="loginDefaultStack">
+				<interceptor-ref name="login"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="loginDefaultStack"></default-interceptor-ref>
+		<global-results>
+			<result name="login" type="redirect">/login.do</result>
+			<result name="exception" type="redirect">/web/error.html</result>
+		</global-results>
+		<global-exception-mappings>   
+	        <exception-mapping result="exception"   
+	            exception="java.lang.Exception">   
+	        </exception-mapping>   
+	    </global-exception-mappings>   
+	</package>
+	
+	
+
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.objectFactory.spring.autoWire" value="name" />
+	<constant name="struts.action.extension" value="do" />
+	<constant name="struts.objectFactory.spring.useClassCache" value="false" />
+	
+	
+	<package name="manager" extends="default" namespace="/manager">
+		<action name="standData" class="com.tycomputer.manager.action.StandDataAction">
+			<result name="datatypelist">/manager/datatypeList.jsp</result>
+			<result name="addDatatype">/manager/addDatatype.jsp</result>
+			<result name="detaList">/manager/detaList.jsp</result>
+		</action>
+		
+		<action name="present" class="com.tycomputer.manager.action.PresentAction">
+			<result name="list">/manager/presentList.jsp</result>
+			<result name="add">/manager/addPresent.jsp</result>
+		</action>
+		
+		<action name="showedPresent" class="com.tycomputer.manager.action.ShowedPresentAction">
+			<result name="list">/manager/showedPresentList.jsp</result>
+		</action>
+		
+		<action name="genhtml" class="com.tycomputer.manager.action.GenhtmlAction">
+			<result name="list">/manager/genhtml.jsp</result>
+		</action>
+	</package>
+
+
+	<package name="web" extends="struts-default" namespace="/">
+		<action name="presentDetail" class="com.tycomputer.web.PresentDetailAction">
+			<result name="page">/web/presentDetail.jsp</result>
+			<result name="product">/web/product.jsp</result>
+			<result name="detail">/web/pDetail.jsp</result>
+		</action>
+		
+		<action name="hjDetail" class="com.tycomputer.hj.web.PresentDetailAction">
+			<result name="page">/hj/web/presentDetail.jsp</result>
+			<result name="product">/hj/web/product.jsp</result>
+			<result name="detail">/hj/web/pDetail.jsp</result>
+		</action>
+		
+		<action name="yycNewsDetail" class="com.tycomputer.yyc.web.YycNewsDetailAction">
+			<result name="detail">/jsp/news/newsDetail.jsp</result>
+			<result name="list">/jsp/news/newsList.jsp</result>
+		</action>
+		
+		<action name="bm" class="com.tycomputer.yyc.manager.action.YycBmAction">
+			<result name="bm">/jsp/jspx/jspxbm.jsp</result>
+			<result name="result">/jsp/jspx/jspxbmResult.jsp</result>
+		</action>
+		
+		<action name="login" class="com.tycomputer.manager.action.LoginAction">
+			<result name="login">/manager/login.jsp</result>
+			<result name="menu">/manager/managerMenu.jsp</result>
+			<result name="hjmenu">/hj/manager/managerMenu.jsp</result>
+			<result name="yycmenu">/yyc/manager/managerMenu.jsp</result>
+		</action>
+		
+		
+	</package>
+
+	<package name="hjmanager" extends="default" namespace="/hjmanager">		
+		<action name="hjpresent" class="com.tycomputer.hj.manager.action.PresentAction">
+			<result name="list">/hj/manager/presentList.jsp</result>
+			<result name="add">/hj/manager/addPresent.jsp</result>
+		</action>		
+		<action name="hjshowedPresent" class="com.tycomputer.hj.manager.action.ShowedPresentAction">
+			<result name="list">/hj/manager/showedPresentList.jsp</result>
+		</action>		
+	</package>
+	
+	<package name="yycmanager" extends="default" namespace="/yycmanager">		
+		<action name="yycNews" class="com.tycomputer.yyc.manager.action.YycNewsAction">
+			<result name="list">/yyc/manager/yycNewsList.jsp</result>
+			<result name="add">/yyc/manager/addYycNews.jsp</result>
+		</action>
+		<action name="yycForms" class="com.tycomputer.yyc.manager.action.YycFormAction">
+			<result name="list">/yyc/manager/yycFormList.jsp</result>
+			<result name="add">/yyc/manager/addYycForm.jsp</result>
+		</action>	
+	</package>
+	
+</struts>
