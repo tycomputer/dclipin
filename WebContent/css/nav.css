@@ -74,57 +74,58 @@
 
 
 
-	.nav .services a:link, .nav .services a:visited {
-		left: 329px;
-		width: 152px;
-	}
-	.nav .services a:hover, .nav .services a:focus {
-		background: url(nav.gif) no-repeat -329px -49px;
-	}
-	.nav .services a:active {
-		background: url(nav.gif) no-repeat -329px -98px;
-	}
-	.current-services .services a:link, .current-services .services a:visited {
-		background: url(nav.gif) no-repeat -329px -147px;
-		cursor: default;
-	}
-	.nav-services, .nav-services-click {
-		position: absolute;
-		top: 0;
-		left: 329px;
-		width: 152px;
-		height: 48px;
-		background: url(nav.gif) no-repeat -329px -49px;
-	}
-	.nav-services-click {
-		background: url(nav.gif) no-repeat -329px -98px;
-	}
-
-
-	
 	.nav .qsedu a:link, .nav .qsedu a:visited {
-		left: 482px;
+		left: 329px;
 		width: 152px;
 	}
 	.nav .qsedu a:hover, .nav .qsedu a:focus {
-		background: url(nav.gif) no-repeat -482px -49px;
+		background: url(nav.gif) no-repeat -329px -49px;
 	}
 	.nav .qsedu a:active {
-		background: url(nav.gif) no-repeat -482px -98px;
+		background: url(nav.gif) no-repeat -329px -98px;
 	}
 	.current-qsedu .qsedu a:link, .current-qsedu .qsedu a:visited {
-		background: url(nav.gif) no-repeat -482px -147px;
+		background: url(nav.gif) no-repeat -329px -147px;
 		cursor: default;
 	}
 	.nav-qsedu, .nav-qsedu-click {
 		position: absolute;
 		top: 0;
+		left: 329px;
+		width: 152px;
+		height: 48px;
+		background: url(nav.gif) no-repeat -329px -49px;
+	}
+	.nav-qsedu-click {
+		background: url(nav.gif) no-repeat -329px -98px;
+	}
+
+
+
+	
+	.nav .services a:link, .nav .services a:visited {
+		left: 482px;
+		width: 152px;
+	}
+	.nav .services a:hover, .nav .services a:focus {
+		background: url(nav.gif) no-repeat -482px -49px;
+	}
+	.nav .services a:active {
+		background: url(nav.gif) no-repeat -482px -98px;
+	}
+	.current-services .services a:link, .current-services .services a:visited {
+		background: url(nav.gif) no-repeat -482px -147px;
+		cursor: default;
+	}
+	.nav-services, .nav-services-click {
+		position: absolute;
+		top: 0;
 		left: 482px;
 		width: 152px;
 		height: 48px;
 		background: url(nav.gif) no-repeat -482px -49px;
 	}
-	.nav-qsedu-click {
+	.nav-services-click {
 		background: url(nav.gif) no-repeat -482px -98px;
 	}
 	
