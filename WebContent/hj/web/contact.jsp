@@ -51,7 +51,7 @@
 					<strong><span style="color: #ffffff"><span
 						style="background-color: #ff0000">&nbsp;</span></span></strong><span
 						style="color: #ffffff"><span
-						style="background-color: #ff0000">公司理念：<br />
+						style="background-color: #ff0000">我们理念：<br />
 					</span></span><span style="color: #333333">以客户为中心以质量求生存以技术求发展；用心服务 全心全意。</span>
 					</p><br/>
 					
@@ -64,4 +64,3 @@
 <jsp:include page="foot.jsp" />
 </body>
 </html>
-<script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-25201575-1']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>

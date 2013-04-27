@@ -28,14 +28,11 @@
 					  <span class="STYLE17">
 					  <span style="color: #57572d"><span style="background-color: #cccccc">&nbsp;北京</span></span><br/>
 					  	地址：北京市朝阳区大郊亭中街2号院华腾国际公寓5-3A <br /> 
-						<span class="STYLE8">电话：010-82592119</span><br />
-						网站：<a href="http://www.dclipin.com" target="_blank">www.dclipin.com</a><br /> 
-						Email：<a href="mailto:zld@dclipin.com">zld@dclipin.com</a>&nbsp;&nbsp;<a href="mailto:zhangliudong1126@126.com">zhangliudong1126@126.com</a><br /> 
+						<span class="STYLE8">电话：010-82590519&nbsp;&nbsp;13436565358</span><br />
+						网站：<a href="http://www.dclipin.cn" target="_blank">www.dclipin.cn</a><br /> 
+						Email：<a href="mailto:zld@dclipin.cn">zld@dclipin.cn</a>&nbsp;&nbsp;<a href="mailto:zhangliudong1126@126.com">zhangliudong1126@126.com</a><br /> 
 						QQ:344416235<br /><br />
-						<span style="color: #57572d"><span style="background-color: #cccccc">&nbsp;生产基地</span></span><br />
-						地址：广州市白云区嘉禾长湴第二工业街8号<br />
-						电话： 020-22109852
-						</span>
+						
 						
 					
 					</p>
@@ -54,7 +51,7 @@
 					<strong><span style="color: #ffffff"><span
 						style="background-color: #ff0000">&nbsp;</span></span></strong><span
 						style="color: #ffffff"><span
-						style="background-color: #ff0000">公司理念：<br />
+						style="background-color: #ff0000">经营理念：<br />
 					</span></span><span style="color: #333333">以客户为中心以质量求生存以技术求发展；用心服务 全心全意。</span>
 					</p><br/>
 					<span style="color: #ffffff"><span

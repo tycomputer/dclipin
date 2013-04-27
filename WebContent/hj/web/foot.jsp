@@ -4,8 +4,8 @@
 	<tr>
 		<td height="26" bgcolor="#FFFFFF">
 		<div class="footer">
-		北京旭日东升货架有限公司&nbsp;&nbsp;版权所有&nbsp;&nbsp;业务咨询:010-57476779&nbsp;&nbsp;15313961779&nbsp;&nbsp;13521986318&nbsp;&nbsp;13436461506&nbsp;&nbsp;E-mail:<a href="mailto:sale@xrdshuojia.com">sale@xrdshuojia.com</a><br />
-		郑重声明：本网站公布的图片均为原创 ,未经许可不得抄袭或冒用,违者必究。<br />
+		旭日东升货架&nbsp;&nbsp;版权所有&nbsp;&nbsp;业务咨询:010-57476779&nbsp;&nbsp;15313961779&nbsp;&nbsp;13521986318&nbsp;&nbsp;13436461506&nbsp;&nbsp;E-mail:<a href="mailto:sale@xrdshuojia.com">sale@xrdshuojia.com</a><br />
+		郑重声明：本网站公布的图片均为原创 ,未经许可不得抄袭或冒用,违者必究。  <a href='http://www.miibeian.gov.cn/' target='_blank'>京ICP备13012466号-1</a><br />
 		</div>
 		</td>
 	</tr>
@@ -35,3 +35,7 @@
 </TBODY></TABLE>
 </div>
 <script>Event.observe(window,'scroll',function (event){$("floatQQ").setStyle({ top: (Position.realOffset($("floatQQ"))[1] + 80) + 'px'});});</script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3a820b83a05f1f16cfcbf4720326f6ce' type='text/javascript'%3E%3C/script%3E"));
+</script>

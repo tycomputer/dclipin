@@ -25,8 +25,8 @@
 				<tr>
 					<td valign="top">
 					<p class="a"><br />
-					<span class="STYLE18">&nbsp;&nbsp;&nbsp;&nbsp;公司成立以来来，曾为全国各地众多行业的广大客户（包括物流、机电、航空、电子、机械、汽车、邮电、铁路、食品、石化、文教、医药、烟草、超市、服装金融等行业）解决卖场、库房、仓储提供服务。特别是与众多的高新技术企业建立了长期和密切的合作关系。<br />
-&nbsp;&nbsp;&nbsp;&nbsp; “与越来越多的企业共谱华丽的篇章，提高竞争力！”是旭日东升货架有限公司一如既往的使命和追求……
+					<span class="STYLE18">&nbsp;&nbsp;&nbsp;&nbsp;我们曾为全国各地众多行业的广大客户（包括物流、机电、航空、电子、机械、汽车、邮电、铁路、食品、石化、文教、医药、烟草、超市、服装金融等行业）解决卖场、库房、仓储提供服务。特别是与众多的高新技术企业建立了长期和密切的合作关系。<br />
+&nbsp;&nbsp;&nbsp;&nbsp; “与越来越多的企业共谱华丽的篇章，提高竞争力！”是旭日东升货架一如既往的使命和追求……
 					</span><br />
 					<br />
 					</p>
@@ -146,4 +146,3 @@
 <jsp:include page="foot.jsp" />
 </body>
 </html>
-<script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-25201575-1']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>

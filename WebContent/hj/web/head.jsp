@@ -12,7 +12,7 @@
 		<td height="58">&nbsp;</td>
 		<td valign="bottom">
 			<div align="right">
-			<a href="web/contact.jsp"><img src="images/hjdianhua.jpg" width="203" height="40" border="0" /></a>
+			<a href="hj/web/contact.jsp"><img src="images/hjdianhua.jpg" width="203" height="40" border="0" /></a>
 			</div>
 		</td>
 	</tr>

@@ -4,8 +4,8 @@
 	<tr>
 		<td height="26" bgcolor="#FFFFFF">
 		<div class="footer">
-		北京东创伟业商贸公司&nbsp;&nbsp;版权所有&nbsp;&nbsp;业务咨询:010-82592119&nbsp;&nbsp;E-mail:<a href="mailto:sale@dclipin.com">zlh@dclipin.com</a><br />
-		郑重声明：本网站公布的礼品图片均为原创 ,未经许可不得抄袭或冒用,违者必究。<br />
+		北京东创礼品网&nbsp;&nbsp;版权所有&nbsp;&nbsp;业务咨询:010-82590519&nbsp;&nbsp;E-mail:<a href="mailto:sale@dclipin.cn">sale@dclipin.cn</a><br />
+		郑重声明：本网站公布的礼品图片均为原创 ,未经许可不得抄袭或冒用,违者必究。<a href='http://www.miibeian.gov.cn/' target='_blank'>京ICP备13007060号-1</a><br />
 		</div>
 		</td>
 	</tr>
@@ -33,3 +33,7 @@
 </TABLE>
 </div>
 <script>Event.observe(window,'scroll',function (event){$("floatQQ").setStyle({ top: (Position.realOffset($("floatQQ"))[1] + 80) + 'px'});});</script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff004d33cf3f749fc6c9de7bf7d6b056a' type='text/javascript'%3E%3C/script%3E"));
+</script>

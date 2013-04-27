@@ -25,8 +25,8 @@
 				<tr>
 					<td valign="top">
 					<p class="a"><br />
-					<span class="STYLE18">&nbsp;&nbsp;&nbsp;&nbsp;公司成立以来来，曾为国内外众多行业的广大客户（包括政府机关、社会团体、企事业单位）解决商务、会议、庆典、公关、外交、行政、开业、促销、福利等活动过程中的礼品赠送问题。服务所涉及的行业有：政府机关、社会团体、通信、银行、学校、医院、商场、出版社、机械、汽车、电子电器、日用化工、建材、家具、服装、食品、保健品、医药卫生等众多领域。特别是与众多的高新技术企业建立了长期和密切的合作关系。<br />
-&nbsp;&nbsp;&nbsp;&nbsp; “与越来越多的企业共谱华丽的篇章，提高竞争力！”是东创伟业礼品公司一如既往的使命和追求……
+					<span class="STYLE18">&nbsp;&nbsp;&nbsp;&nbsp;东创礼品网成立以来，曾为国内外众多行业的广大客户（包括政府机关、社会团体、企事业单位）解决商务、会议、庆典、公关、外交、行政、开业、促销、福利等活动过程中的礼品赠送问题。服务所涉及的行业有：政府机关、社会团体、通信、银行、学校、医院、商场、出版社、机械、汽车、电子电器、日用化工、建材、家具、服装、食品、保健品、医药卫生等众多领域。特别是与众多的高新技术企业建立了长期和密切的合作关系。<br />
+&nbsp;&nbsp;&nbsp;&nbsp; “与越来越多的企业共谱华丽的篇章，提高竞争力！”是改成东创礼品网一如既往的使命和追求……
 					</span><br />
 					<br />
 					</p>
@@ -49,10 +49,7 @@
 							<dt><a href="images/case/d1.jpg" target="_blank"><img src='images/case/d2.jpg' /></a></dt> 
 							<dd>中国人民大学定制<br/>马克杯</dd>
 						</dl>
-						<dl>
-							<dt><a href="images/case/e1.jpg" target="_blank"><img src='images/case/e2.jpg' /></a></dt> 
-							<dd>百度公司定制<br/>手包礼品</dd>
-						</dl>
+						
 						<dl>
 							<dt><a href="images/case/f1.jpg" target="_blank"><img src='images/case/f2.jpg' /></a></dt> 
 							<dd>奥迪公司定制<br/>广告杯</dd>
@@ -84,10 +81,6 @@
 						<dl>
 							<dt><a href="images/case/m1.jpg" target="_blank"><img src='images/case/m2.jpg' /></a></dt> 
 							<dd>人民日报定制<br/>公爵笔</dd>
-						</dl>
-						<dl>
-							<dt><a href="images/case/n1.jpg" target="_blank"><img src='images/case/n2.jpg' /></a></dt> 
-							<dd>中国移动定制<br/>不锈钢U盘</dd>
 						</dl>
 						<dl>
 							<dt><a href="images/case/o1.jpg" target="_blank"><img src='images/case/o2.jpg' /></a></dt> 
